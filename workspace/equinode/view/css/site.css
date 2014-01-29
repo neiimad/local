@@ -51,7 +51,7 @@
 
 #equinode_home { position: absolute; top: 50%; left: 50%; width: auto; margin: -195px auto auto -300px; }
 .skin #equinode_home img { visibility: hidden; }
-.skin #equinode_home { background: url(/app/workspace/equinode/view/img/EquiNode-Home-Skin.jpg); }
+.skin #equinode_home { background: url(/workspace/equinode/view/img/EquiNode-Home-Skin.jpg); }
 
 #page_connexion .page_middle { text-align:center; }
 #page_connexion #contenu_connexion .bloc { width: 415px; margin: 150px auto 0 auto; }

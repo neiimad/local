@@ -23,7 +23,7 @@
 						<?php // LIEN BOUTON
 							$contenu 	= 'Supprimer';
 							$title 		= 'Supprimer le membre';
-							$href 		= '/app/workspace/equinode/profil/?IdP='.$this->data['POST']['id_md5'].'&delete=Y';
+							$href 		= '/workspace/equinode/profil/?IdP='.$this->data['POST']['id_md5'].'&delete=Y';
 							$el = array(	'type'				=> 'link',
 						                	'element_label'		=> 'element_link3',
 				        		        	'element_disabled' 	=> 'N',

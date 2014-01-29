@@ -25,7 +25,7 @@
 						<?php // LIEN BOUTON
 							$contenu 	= 'Supprimer';
 							$title 		= 'Supprimer définitivement cette offre';
-							$href 		= '/app/workspace/equinode/editionoffre/?IdP='.$theproduct['id_md5'].'&delete=Y';
+							$href 		= '/workspace/equinode/editionoffre/?IdP='.$theproduct['id_md5'].'&delete=Y';
 							$el = array(	'type'				=> 'link',
 						                	'element_label'		=> 'element_link',
 				        		        	'element_disabled' 	=> 'N',
@@ -44,7 +44,7 @@
 					<?php // LIEN BOUTON
 						$contenu 	= 'Retour';
 						$title 		= 'Retour à la page précédente';
-						$href 		= '/app/workspace/equinode/fiche-offre/?IdP='.$theproduct['id_md5'];
+						$href 		= '/workspace/equinode/fiche-offre/?IdP='.$theproduct['id_md5'];
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link',
 			        		        	'element_disabled' 	=> 'N',

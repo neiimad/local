@@ -23,7 +23,7 @@
 					<?php // LIEN BOUTON
 						$contenu 	= 'Modifier le profil';
 						$title 		= 'Ouvrir la page';
-						$href 		= '/app/workspace/equinode/edition-de-membre/?IdP='.$this->data['POST']['id_md5'];
+						$href 		= '/workspace/equinode/edition-de-membre/?IdP='.$this->data['POST']['id_md5'];
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link',
 			        		        	'element_disabled' 	=> 'N',
@@ -52,7 +52,7 @@
 
 					<?php // LIEN BOUTON
 						$contenu 	= 'Retour';
-						$href 		= '/app/workspace/equinode/liste-des-membres';
+						$href 		= '/workspace/equinode/liste-des-membres';
 						$title 		= 'Ouvrir la page';
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'link_liste_des_membres',
@@ -69,7 +69,7 @@
 
 						<?php // LIEN BOUTON
 							$contenu 	= 'Retour';
-							$href 		= '/app/workspace/equinode/liste-des-membres';
+							$href 		= '/workspace/equinode/liste-des-membres';
 							$title 		= 'Ouvrir la page';
 							$el = array(	'type'				=> 'link',
 						                	'element_label'		=> 'link_liste_des_membres',
@@ -177,7 +177,7 @@
 							?>
 
 						</div>
-						<div class="pin"><img src="/app/src/view/img/flags/<?php echo strtolower($member['country']); ?>.gif" alt="<?php echo strtolower($member['country']); ?>" /></div>
+						<div class="pin"><img src="/src/view/img/flags/<?php echo strtolower($member['country']); ?>.gif" alt="<?php echo strtolower($member['country']); ?>" /></div>
 					</div>
 
 					<div class="col user-adress">

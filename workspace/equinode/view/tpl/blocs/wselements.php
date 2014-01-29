@@ -357,7 +357,7 @@
 
 					<?php // LIEN
 						$contenu 	= 'Lien';
-						$href 		= '/app/workspace/equinode/elements';
+						$href 		= '/workspace/equinode/elements';
 						$title 		= 'Ouvrir la page';
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link1',
@@ -372,7 +372,7 @@
 
 					<?php // LIEN BOUTON
 						$contenu 	= 'Lien';
-						$href 		= '/app/workspace/equinode/elements';
+						$href 		= '/workspace/equinode/elements';
 						$title 		= 'Ouvrir la page';
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link2',
@@ -387,7 +387,7 @@
 
 					<?php // LIEN BOUTON 2
 						$contenu 	= 'Lien';
-						$href 		= '/app/workspace/equinode/elements';
+						$href 		= '/workspace/equinode/elements';
 						$title 		= 'Ouvrir la page';
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link3',

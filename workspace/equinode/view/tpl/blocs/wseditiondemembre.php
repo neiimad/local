@@ -18,7 +18,7 @@
 
 					<?php // LIEN BOUTON
 						$contenu 	= 'Retour';
-						$href 		= '/app/workspace/equinode/profil/?IdP='.$this->data['POST']['id_md5'];
+						$href 		= '/workspace/equinode/profil/?IdP='.$this->data['POST']['id_md5'];
 						if (stristr('ADMINISTRATOR', $this->data['wsuser']['category']))
 						{
 							$href .= '&IdAdmin='.$this->data['wsuser']['id_md5'];

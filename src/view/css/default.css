@@ -100,10 +100,10 @@ table.page td .container .bloc { background: #ffffff; box-shadow: 0 4px 10px #44
 form .info,
 form .error { padding: 10px 0 10px 48px; margin: 0 10px 17px 10px; }
 
-.info { color: #60bd3b; border: 1px dotted #60bd3b; background: url(/app/src/view/img/picto_info.png) 13px 50% no-repeat; }
+.info { color: #60bd3b; border: 1px dotted #60bd3b; background: url(/src/view/img/picto_info.png) 13px 50% no-repeat; }
 :root * > .info { border-color: rgba(96, 189, 59, 0.3); }
 
-.error { color: #ff5500; border: 1px dotted #ff5500; background: url(/app/src/view/img/picto_error.png) 13px 50% no-repeat; }
+.error { color: #ff5500; border: 1px dotted #ff5500; background: url(/src/view/img/picto_error.png) 13px 50% no-repeat; }
 :root * > .error { border-color: rgba(255, 85, 0, 0.3); }
 
 /*-----------------
@@ -236,13 +236,13 @@ form p.form-hidden { position: absolute; top: -10000px; left: -10000px; }
 
 /*** checkbox */
 
-.form-elt .field .choix label .checkbox { background: url(/app/src/view/img/elements.png) -161px 0 no-repeat; }
-.form-elt .field .choix label .checkbox-checked { background: url(/app/src/view/img/elements.png) -181px 0 no-repeat; }
+.form-elt .field .choix label .checkbox { background: url(/src/view/img/elements.png) -161px 0 no-repeat; }
+.form-elt .field .choix label .checkbox-checked { background: url(/src/view/img/elements.png) -181px 0 no-repeat; }
 
 /*** radio */
 
-.form-elt .field .choix label .radio { background: url(/app/src/view/img/elements.png) -121px 0 no-repeat; }
-.form-elt .field .choix label .radio-checked { background: url(/app/src/view/img/elements.png) -141px 0 no-repeat; }
+.form-elt .field .choix label .radio { background: url(/src/view/img/elements.png) -121px 0 no-repeat; }
+.form-elt .field .choix label .radio-checked { background: url(/src/view/img/elements.png) -141px 0 no-repeat; }
 .form-disabled .field .choix label .radio { display: none; }
 
 /*** submit */
@@ -262,7 +262,7 @@ form .active .maxlength { color: #7B7B7B; }
 
 form .form-error .help { display: none; font-size: 12px; line-height: 24px; height: 24px; width: 24px; margin: 2px 5px; vertical-align: middle; text-align: center;
 	color: #EFEFEF;
-	background: #ff7722 url(/app/src/view/img/picto_45.png);
+	background: #ff7722 url(/src/view/img/picto_45.png);
 	background-image: none; border-radius: 30px;
 }
 form .form-error .help:hover { color: #FFFFFF; background-color: #ff5500; }
@@ -307,7 +307,7 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .form_preview-card .badge .categ { display: none; }
 .form_preview .specimen,
 .form_preview .reflection { position: absolute; top: 0; left: 0; z-index: 4; width: 100%; }
-.form_preview .reflection { display: block; background: url(/app/src/view/img/reflet.png) -211px -205px no-repeat; }
+.form_preview .reflection { display: block; background: url(/src/view/img/reflet.png) -211px -205px no-repeat; }
 @media print { .form_preview .reflection { display: none; } }
 .form_preview-a4 .specimen,
 .form_preview-a4 .reflection { height: 424px; }
@@ -320,7 +320,7 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 -----------------*/
 
 .img { font-size: 0; line-height: 0; padding-bottom: 5px; text-align: center; overflow: hidden; zoom: 1; }
-.imgLoad { background-image: url(/app/src/view/img/loading_light.gif) !important; background-position: 50% 50% !important; background-repeat: no-repeat !important; }
+.imgLoad { background-image: url(/src/view/img/loading_light.gif) !important; background-position: 50% 50% !important; background-repeat: no-repeat !important; }
 .img,
 .img .anchor { position: relative; z-index: 1; zoom: 1; display: inline-block; line-height: 0; margin: 0 auto; text-decoration: none; }
 .imgLoad .anchor { background: none; }
@@ -330,11 +330,11 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .img .anchor:hover .wrap { background-color: #3089D4; }
 :root * > .img .anchor:hover .wrap { background-color: rgba(48, 137, 218, 0.8); }
 
-.img .anchor .wrap .icon { float: left; width: 16px; height: 16px; margin: 0 5px; background: url(/app/src/view/img/elements.png) -102px -2px no-repeat; cursor: pointer; }
+.img .anchor .wrap .icon { float: left; width: 16px; height: 16px; margin: 0 5px; background: url(/src/view/img/elements.png) -102px -2px no-repeat; cursor: pointer; }
 .img .anchor .wrap .libelle { font: 12px Arial; line-height: 16px; margin: 0 5px 0 0; color: #FFFFFF; cursor: pointer; }
 
 .img .anchor .launch { display: none; position: absolute; z-index: 2; top: 0px; left: 0; height: 100%; width: 100%; cursor: pointer;
-	background: url(/app/src/view/img/reflet.png) -320px -267px no-repeat;
+	background: url(/src/view/img/reflet.png) -320px -267px no-repeat;
 	opacity: 1;
 	-webkit-transition: opacity 0.5s;
 	-moz-transition: opacity 0.5s;
@@ -380,7 +380,7 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .layer { display: none; position: fixed; z-index: 9996; top: 0; left: 0; height: 100%; width: 100%; }
 @media print { .layer { display: none !important; } }
 .layer .bg { position: absolute; z-index: 9997; top: 0; left: 0; height: 100%; width: 100%; background: #FFFFFF; opacity: 0.95; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)"; filter: alpha(opacity=95); }
-.layer .front { position: absolute; z-index: 9998; top: 0; left: 0; height: 100%; width: 100%; border: none; /*background: url(/app/src/view/img/loading_light.gif) 50% 50% no-repeat;*/ }
+.layer .front { position: absolute; z-index: 9998; top: 0; left: 0; height: 100%; width: 100%; border: none; /*background: url(/src/view/img/loading_light.gif) 50% 50% no-repeat;*/ }
 .layer .front .front-inner { height: 100%; width: 100%; padding: 0; text-align: center; vertical-align: middle; }
 .layer .front .front-inner .container .bloc { width: 988px; margin: 0 auto; text-align: left; background: #FFFFFF; box-shadow: 0 4px 10px #444444; }
 .layer .front .front-inner .zoom { background: #FFFFFF; box-shadow: 0 10px 20px #555555; }
@@ -420,7 +420,7 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .link .wrap .libelle { font-size: 12px; font-family: Arial; line-height: 20px; margin: 0 8px 0 0; color: #519cdc; vertical-align: top; zoom: 1; }
 .link:hover .wrap .libelle { color: #3089D4; text-decoration: underline; }
 
-.link .wrap .icon { display: inline-block; width: 16px; height: 20px; margin: 0 8px 0 0; vertical-align: top; zoom: 1; background: url(/app/src/view/img/elements.png) 0 -19px no-repeat; }
+.link .wrap .icon { display: inline-block; width: 16px; height: 20px; margin: 0 8px 0 0; vertical-align: top; zoom: 1; background: url(/src/view/img/elements.png) 0 -19px no-repeat; }
 
 /*-----------------
 	LINK_BTN
@@ -538,7 +538,7 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .navcol li a:hover .wrap .libelle,
 .navcol li a .sel .libelle { color: #519CDC !important; }
 
-.navcol li a .wrap .icon { width: 12px; height: 12px; margin-top: 4px; margin-left: 6px; border-radius: 6px; background: #838383 url(/app/src/view/img/elements.png) -123px -24px no-repeat !important; }
+.navcol li a .wrap .icon { width: 12px; height: 12px; margin-top: 4px; margin-left: 6px; border-radius: 6px; background: #838383 url(/src/view/img/elements.png) -123px -24px no-repeat !important; }
 .navcol li a:hover .wrap .icon { background-color: #3089D4 !important; }
 .navcol li a .sel .icon { background-color: #519CDC !important; }
 
@@ -591,9 +591,9 @@ form .form-error .warnings .warning { display: inline-block; font: 12px Arial; p
 .tabs_panels .tabs .tab a { padding: 0 5px; margin: 0 1px 0 0; }
 .tabs_panels .tabs .tab a.active { border-bottom: 1px solid #FFFFFF; background: #FFFFFF !important; }
 
-.tabs_panels .tabs .tab a .wrap .icon { width: 12px; height: 12px; margin: 6px 6px 0 6px; border-radius: 6px; background: #519CDC url(/app/src/view/img/elements.png) -144px -25px no-repeat !important; }
+.tabs_panels .tabs .tab a .wrap .icon { width: 12px; height: 12px; margin: 6px 6px 0 6px; border-radius: 6px; background: #519CDC url(/src/view/img/elements.png) -144px -25px no-repeat !important; }
 .tabs_panels .tabs .tab a.active .wrap .icon,
-.tabs_panels .tabs .tab a:hover .wrap .icon { background: url(/app/src/view/img/elements.png) -164px -24px no-repeat !important; cursor: pointer; }
+.tabs_panels .tabs .tab a:hover .wrap .icon { background: url(/src/view/img/elements.png) -164px -24px no-repeat !important; cursor: pointer; }
 .tabs_panels .tabs .tab a:hover .wrap .icon { background-color: #3089D4 !important; }
 .tabs_panels .tabs .tab a.active .wrap .icon { background-color: #3a3a3c !important; }
 .tabs_panels .tabs .tab a .wrap .libelle { font-size: 13px; line-height: 24px; text-decoration: none; }

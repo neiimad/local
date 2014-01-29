@@ -1,0 +1,172 @@
+.skin .container .bloc h2 .anchor .wrap .icon { display: none; }
+
+.skin a { color: #e03a19; }
+.skin a:hover { color: #d12907; }
+
+.skin fieldset { border-color: #FFFFFF !important; }
+.skin fieldset legend { color: #e03a19 !important; text-transform: uppercase; }
+
+/*-----------------
+	BLOC
+-----------------*/
+
+.skin .page_middle .container .bloc,
+.skin #layer .container .bloc { box-shadow: none; }
+
+.skin .page_middle .container .bloc .head,
+.skin #layer .container .bloc .head { border-radius: 5px 5px 0px 0px; background: #646464 url(/app/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; border-bottom: none; }
+
+.skin .page_middle .container .bloc .inner,
+.skin #layer .container .bloc .inner { box-shadow: 0 1px 5px #777777; }
+
+.skin .page_middle .container .bloc .bottom,
+.skin #layer .container .bloc .bottom { border-radius: 0px 0px 5px 5px; background: #8d8d8d url(/app/workspace/equinode/view/img/bottom_skin.png) 0 0 repeat-x; border-top: none; }
+
+/*-----------------
+	CONTENT
+-----------------*/
+
+.skin .container .bloc h2 .anchor { border-radius: 0px 3px 3px 0px; background-color: #e03a19; }
+.skin .container .bloc h2 .anchor .wrap .libelle { color: #EFEFEF; }
+.skin .container .bloc h2 .anchor:hover .wrap .libelle { color: #FFFFFF; }
+
+.skin .container .bloc .inner .col { margin: 0 0 10px 8px; }
+
+.skin .container .bloc .inner .description h5 .anchor .wrap .libelle { font-weight: bold; color: #3a3a3c; }
+
+/*-----------------
+	IMG
+-----------------*/
+
+.skin .img .anchor:hover .wrap { background-color: #e03a19; }
+:root * > .skin .img .anchor:hover .wrap { background-color: rgba(224, 58, 25, 0.8); }
+
+/*-----------------
+	LINK
+-----------------*/
+
+.skin .link .wrap { border: none; border-radius: 3px; }
+
+.skin .link .wrap .libelle { color: #e03a19; }
+.skin .link:hover .wrap .libelle { color: #d12907; }
+.skin .page_middle .container .bloc .head .link .wrap .libelle,
+.skin .page_middle .container .bloc .bottom .link .wrap .libelle { font-size: 11px; color: #EFEFEF; }
+.skin .page_middle .container .bloc .head .link:hover .wrap .libelle,
+.skin .page_middle .container .bloc .bottom .link:hover .wrap .libelle { color: #FFFFFF; }
+
+.skin .link .wrap .icon { background-image: url(/app/workspace/equinode/view/img/elements.png); }
+
+.skin .page_middle .container .bloc .head .link .wrap .icon,
+.skin .page_middle .container .bloc .bottom .link .wrap .icon { background-position: -20px -19px; }
+
+/*** BTN */
+
+.skin .btn .wrap { background: #FFFFFF; }
+.skin .btn:hover .wrap { background: #EFEFEF; }
+
+.skin .btn .wrap .libelle,
+.skin .page_middle .container .bloc .head .btn .wrap .libelle,
+.skin .page_middle .container .bloc .bottom .btn .wrap .libelle { color: #e03a19; }
+.skin .btn:hover .wrap .libelle,
+.skin .page_middle .container .bloc .head .btn:hover .wrap .libelle,
+.skin .page_middle .container .bloc .bottom .btn:hover .wrap .libelle { color: #d12907; }
+
+/*** BTN2 */
+
+.skin .btn2:hover .wrap,
+.skin .btn2:hover .wrap { background: #d12907; }
+
+/*** CLOSE */
+
+.skin .close .wrap { padding: 3px 0px 3px 9px; }
+
+/*-----------------
+	LAYER
+-----------------*/
+
+.skin #layer > .prev .wrap,
+.skin #layer > .next .wrap { border-radius: 100px; background-color: #3a3a3c; }
+:root * > .skin #layer > .prev .wrap,
+:root * > .skin #layer > .next .wrap { background-color: rgba(56, 56, 56, 0.85); }
+.skin #layer > .prev:hover .wrap,
+.skin #layer > .next:hover .wrap { background-image: none !important; background-color: #d12907 !important; }
+
+/*-----------------
+	NAVBAR
+-----------------*/
+
+.skin .navbar li .link .wrap { background: #646464 url(/app/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; }
+.skin .navbar li li .link .wrap { background: #555555 !important; }
+.skin .navbar li:hover > ul li ul { box-shadow: none; }
+.skin .navbar li .link .sel { background: #e03a19 !important; }
+.skin .navbar > li:hover > .link .wrap,
+.skin .navbar li .link .wrap:hover { background: #d12907 !important; }
+.skin .navcol li .link .sel { background: #faf0ee !important; }
+.skin .navcol li .link .wrap:hover .libelle { color: #d12907 !important; }
+.skin .navcol li .link .sel .libelle { color: #e03a19 !important; }
+.skin .navcol li .link .wrap:hover .icon { background-color: #d12907 !important; }
+.skin .navcol li .link .sel .icon { background-color: #e03a19 !important; }
+
+.skin .navbar li .link .wrap { border-radius: 0; }
+.skin .navbar li .menu_home .wrap { border-radius: 5px 0 0 5px; }
+.skin .navbar li .menu_connexion .wrap,
+.skin .navbar li .menu_deconnexion .wrap { border-radius: 0 5px 5px 0; }
+
+/*-----------------
+	RESULTS
+-----------------*/
+
+.skin .results .mask .list .item-0:hover .content { background: #fbf4f3; }
+.skin .results .mask .list .item-1:hover .content { background: #faf0ee; }
+
+.skin #listedesoffres .results .item .img { background: url(/app/workspace/equinode/view/img/picto_offer_skin.png) !important; }
+.skin #listedesoffres .results .item .img img { visibility: hidden !important; }
+
+.skin #listedesmembres .results .item-female .img { background: none; background: url(/app/workspace/equinode/view/img/picto_female_skin.png) !important; }
+.skin #listedesmembres .results .item-male .img { background: none; background: url(/app/workspace/equinode/view/img/picto_male_skin.png) !important; }
+.skin #listedesmembres .results .item-female .img img,
+.skin #listedesmembres .results .item-male .img img { visibility: hidden !important; }
+
+.skin .user-female .visuel .anchor { background: url(/app/workspace/equinode/view/img/picto_female_120_skin.png) !important; }
+.skin .user-male .visuel .anchor { background: url(/app/workspace/equinode/view/img/picto_male_120_skin.png) !important; }
+.skin .user-female .visuel .anchor img,
+.skin .user-male .visuel .anchor img { visibility: hidden !important; }
+
+/*-----------------
+	FORM
+-----------------*/
+
+.skin .form-elt .submit .wrap input { border-radius: 3px; }
+.skin .form-elt .submit .wrap input { background-color: #e03a19; }
+.skin .form-elt .submit .wrap input:hover { background-color: #d12907; }
+
+/*-----------------
+	FORM PREVIEW
+-----------------*/
+
+.skin .form_preview .badge { background: url(/app/workspace/equinode/view/img/form_preview/card.png) 0 0 no-repeat; }
+.skin .form_preview .badge .bg { visibility: hidden; }
+
+/*-----------------
+	FORM WARNING
+-----------------*/
+
+/* help */
+.skin form .form-elt .help { display: inline-block; z-index: 0; }
+
+/* warnings */
+.skin form .form-elt .warnings { display: inline-block; position: relative; z-index: 1; }
+.skin form .form-elt .warnings { visibility: hidden; opacity: 0;
+	-webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+	-moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+	transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+}
+.skin form .form-elt .help:hover + .warnings { position: relative; visibility: visible; opacity: 1;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.skin form .form-elt .warnings .warning { display: none; position: absolute; top: 16px; left: 50%; z-index: 501; width: 200px; margin-left: -112px; background-color: #FF7722; }
+:root * > .skin form .form-elt .warnings .warning { background: rgba(255, 119, 34, 0.7); box-shadow: 0 2px 3px rgba(0,0,0,0.5); }
+.skin form .form-elt .help:hover + .warnings .warning { display: block; }
+.skin form .form-elt .warnings .warning .libelle { color: #FFFFFF; }

@@ -25,7 +25,7 @@
 				
 			?>
 			
-			<span class="wrap <?php if ((str_replace('-','',$elt['data1']) == URI.$this->view) || ($this->view == 'home' && $elt['data1'] == '/app/workspace/'. WS_NAME) || strstr(str_replace('-','',$elt['data1']), URI.$view.'/?IdAdmin=') || ($this->view == 'home' && strstr(str_replace('-','',$elt['data1']), '/app/workspace/'. WS_NAME.'/?IdAdmin='))){ ?>sel<?php } ?>">
+			<span class="wrap <?php if ((str_replace('-','',$elt['data1']) == URI.$this->view) || ($this->view == 'home' && $elt['data1'] == '/workspace/'. WS_NAME) || strstr(str_replace('-','',$elt['data1']), URI.$view.'/?IdAdmin=') || ($this->view == 'home' && strstr(str_replace('-','',$elt['data1']), '/workspace/'. WS_NAME.'/?IdAdmin='))){ ?>sel<?php } ?>">
 				<span class="icon"></span>
 				<span class="libelle">
 					<?php echo $elt['value']; ?>

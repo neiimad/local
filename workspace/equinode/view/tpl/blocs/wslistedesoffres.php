@@ -102,7 +102,7 @@
 								        		        	'element_disabled' 	=> 'N',
 															'element_class'		=> '',
 								        		        	'data0' 			=> '_self',
-								        		        	'data1' 			=> $data1, //'/app/workspace/equinode/offer',
+								        		        	'data1' 			=> $data1, //'/workspace/equinode/offer',
 															'data2'				=> 'Ouvrir la page de '.$product['firstname'].'-'.$product['lastname'],
 															'value'				=> 'En savoir plus');
 											$this->getElement($el);

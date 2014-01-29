@@ -26,7 +26,7 @@
 					<?php // LIEN BOUTON
 						$contenu 	= "Modifier l'offre";
 						$title 		= "Actualiser les informations de l'offre";
-						$href 		= '/app/workspace/equinode/edition-offre/?IdP='.$theproduct['id_md5'];
+						$href 		= '/workspace/equinode/edition-offre/?IdP='.$theproduct['id_md5'];
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link',
 			        		        	'element_disabled' 	=> 'N',
@@ -43,7 +43,7 @@
 						<?php // LIEN BOUTON
 							$contenu 	= "Publier";
 							$title 		= "Rendre l'offre visible dans la liste des offres";
-							$href 		= '/app/workspace/equinode/fiche-offre/?IdP='.$theproduct['id_md5'].'&published=Y';
+							$href 		= '/workspace/equinode/fiche-offre/?IdP='.$theproduct['id_md5'].'&published=Y';
 							$el = array(	'type'				=> 'link',
 						                	'element_label'		=> 'element_link',
 				        		        	'element_disabled' 	=> 'N',
@@ -62,7 +62,7 @@
 					<?php // LIEN BOUTON
 						$contenu 	= "Retour";
 						$title 		= "Retour à la page précédente";
-						$href 		= '/app/workspace/equinode/liste-des-offres';
+						$href 		= '/workspace/equinode/liste-des-offres';
 						$el = array(	'type'				=> 'link',
 					                	'element_label'		=> 'element_link',
 			        		        	'element_disabled' 	=> 'N',

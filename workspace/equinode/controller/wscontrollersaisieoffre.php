@@ -195,7 +195,7 @@ class wscontrollersaisieoffre extends wscontroller {
 
 	public function deleteCacheUserProduct()
 	{
-		$file = CACHE . md5($_SERVER["HTTP_HOST"].'/app/workspace/equinode/liste-des-offres');
+		$file = CACHE . md5($_SERVER["HTTP_HOST"].'/workspace/equinode/liste-des-offres');
 		//echo $file;
 		if (file_exists($file)){
 			unlink($file);

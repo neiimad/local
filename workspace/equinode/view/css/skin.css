@@ -14,13 +14,13 @@
 .skin #layer .container .bloc { box-shadow: none; }
 
 .skin .page_middle .container .bloc .head,
-.skin #layer .container .bloc .head { border-radius: 5px 5px 0px 0px; background: #646464 url(/app/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; border-bottom: none; }
+.skin #layer .container .bloc .head { border-radius: 5px 5px 0px 0px; background: #646464 url(/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; border-bottom: none; }
 
 .skin .page_middle .container .bloc .inner,
 .skin #layer .container .bloc .inner { box-shadow: 0 1px 5px #777777; }
 
 .skin .page_middle .container .bloc .bottom,
-.skin #layer .container .bloc .bottom { border-radius: 0px 0px 5px 5px; background: #8d8d8d url(/app/workspace/equinode/view/img/bottom_skin.png) 0 0 repeat-x; border-top: none; }
+.skin #layer .container .bloc .bottom { border-radius: 0px 0px 5px 5px; background: #8d8d8d url(/workspace/equinode/view/img/bottom_skin.png) 0 0 repeat-x; border-top: none; }
 
 /*-----------------
 	CONTENT
@@ -54,7 +54,7 @@
 .skin .page_middle .container .bloc .head .link:hover .wrap .libelle,
 .skin .page_middle .container .bloc .bottom .link:hover .wrap .libelle { color: #FFFFFF; }
 
-.skin .link .wrap .icon { background-image: url(/app/workspace/equinode/view/img/elements.png); }
+.skin .link .wrap .icon { background-image: url(/workspace/equinode/view/img/elements.png); }
 
 .skin .page_middle .container .bloc .head .link .wrap .icon,
 .skin .page_middle .container .bloc .bottom .link .wrap .icon { background-position: -20px -19px; }
@@ -95,7 +95,7 @@
 	NAVBAR
 -----------------*/
 
-.skin .navbar li .link .wrap { background: #646464 url(/app/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; }
+.skin .navbar li .link .wrap { background: #646464 url(/workspace/equinode/view/img/head_skin.png) 50% 50% repeat-x; }
 .skin .navbar li li .link .wrap { background: #555555 !important; }
 .skin .navbar li:hover > ul li ul { box-shadow: none; }
 .skin .navbar li .link .sel { background: #e03a19 !important; }
@@ -119,16 +119,16 @@
 .skin .results .mask .list .item-0:hover .content { background: #fbf4f3; }
 .skin .results .mask .list .item-1:hover .content { background: #faf0ee; }
 
-.skin #listedesoffres .results .item .img { background: url(/app/workspace/equinode/view/img/picto_offer_skin.png) !important; }
+.skin #listedesoffres .results .item .img { background: url(/workspace/equinode/view/img/picto_offer_skin.png) !important; }
 .skin #listedesoffres .results .item .img img { visibility: hidden !important; }
 
-.skin #listedesmembres .results .item-female .img { background: none; background: url(/app/workspace/equinode/view/img/picto_female_skin.png) !important; }
-.skin #listedesmembres .results .item-male .img { background: none; background: url(/app/workspace/equinode/view/img/picto_male_skin.png) !important; }
+.skin #listedesmembres .results .item-female .img { background: none; background: url(/workspace/equinode/view/img/picto_female_skin.png) !important; }
+.skin #listedesmembres .results .item-male .img { background: none; background: url(/workspace/equinode/view/img/picto_male_skin.png) !important; }
 .skin #listedesmembres .results .item-female .img img,
 .skin #listedesmembres .results .item-male .img img { visibility: hidden !important; }
 
-.skin .user-female .visuel .anchor { background: url(/app/workspace/equinode/view/img/picto_female_120_skin.png) !important; }
-.skin .user-male .visuel .anchor { background: url(/app/workspace/equinode/view/img/picto_male_120_skin.png) !important; }
+.skin .user-female .visuel .anchor { background: url(/workspace/equinode/view/img/picto_female_120_skin.png) !important; }
+.skin .user-male .visuel .anchor { background: url(/workspace/equinode/view/img/picto_male_120_skin.png) !important; }
 .skin .user-female .visuel .anchor img,
 .skin .user-male .visuel .anchor img { visibility: hidden !important; }
 
@@ -144,7 +144,7 @@
 	FORM PREVIEW
 -----------------*/
 
-.skin .form_preview .badge { background: url(/app/workspace/equinode/view/img/form_preview/card.png) 0 0 no-repeat; }
+.skin .form_preview .badge { background: url(/workspace/equinode/view/img/form_preview/card.png) 0 0 no-repeat; }
 .skin .form_preview .badge .bg { visibility: hidden; }
 
 /*-----------------

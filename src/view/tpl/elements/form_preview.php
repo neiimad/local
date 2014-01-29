@@ -7,7 +7,7 @@
 
 <div class="form_preview form_preview-<?php echo $form_preview_type; ?>"id="<?php echo $id; ?>">
 	<div class="badge">
-		<img class="bg" src="/app/src/view/img/form_preview/<?php echo $form_preview_type; ?>.png">
+		<img class="bg" src="/src/view/img/form_preview/<?php echo $form_preview_type; ?>.png">
 		<div class="wrap">
 			<div class="fields">
 
@@ -16,7 +16,7 @@
 
 			</div>
 			<div class="code">
-				<img class="cab" src="/app/src/view/img/form_preview/cab.png"><br />
+				<img class="cab" src="/src/view/img/form_preview/cab.png"><br />
 				<span class="mention"><?php
 					$member = $this->data['wsprofil'];
 					$date = mb_substr($member['datecreate'],5,2).'/'.mb_substr($member['datecreate'],0,4);
@@ -28,7 +28,7 @@
 			</div>
 			<div class="categ"></div>
 		</div>
-		<img class="specimen" src="/app/src/view/img/form_preview/specimen.png" alt="" />
+		<img class="specimen" src="/src/view/img/form_preview/specimen.png" alt="" />
 		<span class="reflection"></span>
 	</div>
 

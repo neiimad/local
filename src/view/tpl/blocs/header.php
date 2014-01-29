@@ -17,7 +17,7 @@
 						$el = array(	'type'				=> 'content_img',
 					                	'element_label'		=> 'logo',
 			        		        	'element_disabled' 	=> 'N',
-			        		        	'value' 			=> '/app/src/view/img/logo.png',
+			        		        	'value' 			=> '/src/view/img/logo.png',
 										'data0'				=> URI,
 										'data2'				=> ''
 						);

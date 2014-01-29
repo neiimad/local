@@ -282,7 +282,7 @@ $(document).ready(function(){
 			tplString += '<html xmlns="http://www.w3.org/1999/xhtml">';
 			tplString += '<head>';
 			tplString += '<title>Impression</title>';
-			tplString += '<link href="/app/src/view/css/default.css" rel="stylesheet" type="text/css" />';
+			tplString += '<link href="/src/view/css/default.css" rel="stylesheet" type="text/css" />';
 			tplString += '</head>';
 			tplString += '<body class="body_print">';
 			tplString += '<table style="position: absolute; top: 0; left: 0;" border="0" width="100%" height="100%">';

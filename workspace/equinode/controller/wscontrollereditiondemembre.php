@@ -149,7 +149,7 @@ class wscontrollereditiondemembre extends wscontroller {
 
 	public function deleteCacheUserProfil()
 	{
-		$file = CACHE . md5($_SERVER["HTTP_HOST"].'/app/workspace/equinode/userprofil/?IdP='.$this->data['POST']['id_md5']);
+		$file = CACHE . md5($_SERVER["HTTP_HOST"].'/workspace/equinode/userprofil/?IdP='.$this->data['POST']['id_md5']);
 		//echo $file;
 		if (file_exists($file)){
 			unlink($file);

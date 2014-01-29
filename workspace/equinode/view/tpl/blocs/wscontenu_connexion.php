@@ -1,4 +1,4 @@
-<?php if(workspace::getViewId() == 'connexion'){ ?>
+<?php if(REQURI == 'connexion'){ ?>
 
 <?php if (isset($this->bloc['params']['head']) || isset($this->bloc['params']['inner']) || isset($this->bloc['params']['bottom'])){ ?>
 
@@ -28,13 +28,13 @@
 			<?php if (isset($this->bloc['params']['inner'])){ ?>
 				<div class="inner">
 
-					<?php if(workspace::getViewId() == 'connexion' && $this->data['wsuser'] == ''){ ?>
+					<?php if(REQURI == 'connexion' && $this->data['wsuser'] == ''){ ?>
 
 						<?php // WARNING(S)
 							$el = array(	'type'				=> 'warning',
 						                	'element_label'		=> 'form_warning_connexion',
 				        		        	'element_disabled' 	=> 'N',
-				        		        	'value' 			=> $this->data['warnings']);
+				        		        	'value' 			=> ((isset($this->data['warnings']))?$this->data['warnings']:''));
 							$this->getElement($el);
 						?>
 

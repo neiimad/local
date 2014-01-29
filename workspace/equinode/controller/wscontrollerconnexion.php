@@ -28,6 +28,8 @@ class wscontrollerconnexion extends wscontroller {
 	{
 		parent::getData();
 
+		//echo 'PASSE';
+
 		return $this->data;
 	}
 
@@ -38,18 +40,20 @@ class wscontrollerconnexion extends wscontroller {
 		// session user 
 		if (!$this->wscontext->isregistered('wsuser'))
 		{
-			$query = "SELECT * FROM member WHERE email = '".$this->wscontext->getPost('email')."' AND password='".$this->wscontext->getPost('password')."'";
+			$query = "SELECT * FROM `member` WHERE `email` = '".$this->wscontext->getPost('email')."' AND `password`='".$this->wscontext->getPost('password')."'";
+			//echo $query.'<br />';
 			$this->model->executequery($query,'wsuser');
 
 			$users = $this->model->getData('wsuser');
-			
+			//print_r($users);
+			//echo '...<br />';
 			if (is_array($users)){
-				$user = (is_array($users[0])) ? $users[0] : $users;
+				//echo 'PASSE';
+				$user = (isset($users[0]) && is_array($users[0])) ? $users[0] : $users;
 				$this->data['wsuser'] = $user;
 				//echo "<br />BASE DE DONNEE<br />";				
 				$this->wscontext->register('wsuser');
 				$this->wscontext->set('wsuser', $user);
-
 			}
 			else
 			{
@@ -60,14 +64,15 @@ class wscontrollerconnexion extends wscontroller {
 				}
 			}
 		}
-                     
-
-
-
+		//echo '<br />PASSE2';
+		//print_r($this->wscontext->get('wsuser'));
+		//echo '<br />PASSE3';
 		//print_r($this->data['wsuser']);
 
 		//print_r($this->data['front']['page_middle']['contenu_connexion']['inner']);
 
 	}
+
+
 
 }

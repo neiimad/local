@@ -10,9 +10,9 @@
 	$debug = 1; // affiche les erreurs dans la page
 	//$debug = 2; // enregistre les erreurs dans un fichier
 
-	//error_reporting(E_ALL);
+	error_reporting(E_ALL);
 
-	//ini_set('display_errors', 'On');
+	ini_set('display_errors', 'On');
 
 	/*ini_set('html_errors',FALSE);
 	if ($debug == 1)

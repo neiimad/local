@@ -1,4 +1,4 @@
-<?php if(workspace::getViewId() != 'connexion'){ ?>
+<?php if(REQURI != 'connexion'){ ?>
 
 <?php //if (isset($this->bloc['params']['head']) || isset($this->bloc['params']['inner']) || isset($this->bloc['params']['bottom'])){ ?>
 

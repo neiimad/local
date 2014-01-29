@@ -116,6 +116,7 @@
     // On test si c'est une requête de Selection
     if( stristr(strtoupper($sql), 'SELECT') == true || stristr(strtoupper($sql), 'DESCRIBE') == true) {
     $i = 0;
+    $resArray = array();
     // On construit notre $resArray
     while( $row = mysql_fetch_assoc($this->result) ) {
     $resArray[$i] = $row;

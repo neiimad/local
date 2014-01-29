@@ -28,9 +28,9 @@
 				</div>
 			<?php //} ?>
 
-			<?php if (isset($this->bloc['params']) && isset($this->bloc['params']['bottom'])){ ?>
+			<?php //if (isset($this->bloc['params']) && isset($this->bloc['params']['bottom'])){ ?>
 				<div class="bottom">
-					<?php $this->getElements($this->bloc['params']['bottom']); ?>
+					<?php //$this->getElements($this->bloc['params']['bottom']); ?>
 
 					<?php if (!empty($this->data['menu'])){
 
@@ -43,7 +43,7 @@
 
 					} ?>
 				</div>
-			<?php } ?>
+			<?php //} ?>
 
 		</div>
 	</div>

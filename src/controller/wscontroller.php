@@ -39,11 +39,12 @@ class wscontroller {
 		//print_r($this->data);
 	
 		// session user 
-		$this->data['wsuser'] = "";
+		//$this->data['wsuser'] = "";
 		if ($this->wscontext->isregistered('wsuser') && !strpos($_SERVER['REQUEST_URI'], "/?Deconnect"))
 		{
 
 			$this->data['wsuser'] = $this->wscontext->get('wsuser');
+			//print_r($this->data['wsuser']);
 			//echo "<br />SESSION<br />";	
 
 		}

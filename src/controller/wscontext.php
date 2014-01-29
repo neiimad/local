@@ -88,6 +88,8 @@ class wscontext
 		$this->setGet();	
 
 		//print_r($GLOBALS);
+
+		$this->setRequri();
 	}
 
 
@@ -143,17 +145,15 @@ class wscontext
 
 	private function setContext()
 	{
-		/*
-		echo 'PASSE';
 		if (!empty($_POST))
 		{
-			print_r($_POST); die();
+			//print_r($_POST); die();
 		}
 		
 		//print_r($_SESSION['post']);
 		if (isset($_POST['context']))
 		{
-			echo 'PASSE2'; die();
+			//echo 'PASSE2'; die();
 			$context = $_POST['context'];
 			$_SESSION['context'] = $context;
 			//$_SESSION[$context] = http_build_query($_POST);
@@ -180,7 +180,6 @@ class wscontext
 			header("Location: " . $id);
 			exit;
 		}
-		*/
 		
 		//echo "<br />SETCONTEXT : "; print_r($_SESSION);
 
@@ -214,7 +213,7 @@ class wscontext
 				}
 				unset($_SESSION[$id]);
 			}
-			$this->post = $_SESSION['post'];
+			$this->post = (isset($_SESSION['post']));
 		}
 		//echo "<br />SETPOST : "; print_r($_SESSION);
 	}
@@ -366,6 +365,35 @@ class wscontext
 		}
 	}
 	*/
+
+
+
+
+private function setRequri()
+{
+$requris = $_SERVER['REQUEST_URI'];
+
+if (strpos($requris, "/?") !== false)
+{
+$requris = explode("/?", $requris);
+$requris = $requris[0];
+}
+$requris = str_replace('-','_',$requris);
+$requris = explode('/' , $requris);
+
+if (end($requris) == '')
+array_pop($requris);
+
+$requrisNum = '';
+if (!preg_match("/[^0-9]/", end($requris)))
+{
+$requrisNum = end($requris);
+array_pop($requris);
+}
+
+define('REQURINUM', $requrisNum);
+define('REQURI',    end($requris));
+}
 
 } 
 

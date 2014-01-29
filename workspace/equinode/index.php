@@ -2,11 +2,14 @@
 	//print_r($GLOBALS);die;
 	//print_r($_FILES);die;
 
+	$appPath = 'local';
+	//$appPath = 'www';
+
 set_time_limit(60);
 ini_set("memory_limit","60M");
 
 $CURRENT_PATH   = dirname(__FILE__);
-$SRV_ROOT		= substr($CURRENT_PATH, 0, strpos($CURRENT_PATH, '/local/') + 7);
+$SRV_ROOT		= substr($CURRENT_PATH, 0, strpos($CURRENT_PATH, '/'.$appPath.'/') + 7);
 $WS_PATH		= substr($CURRENT_PATH, 0, strpos($CURRENT_PATH, '/workspace/') + 11);
 
 //define('WS_NAME', 'equinode');
